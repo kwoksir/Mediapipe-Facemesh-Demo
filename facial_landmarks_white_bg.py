@@ -31,7 +31,7 @@ while True:
     except Exception as e:
         pass
     cv2.imshow("Image", img)
-    cv2.imshow("Black", white_frame)
+    cv2.imshow("White", white_frame)
     k = cv2.waitKey(1)
     if k == ord('q'):
         break
