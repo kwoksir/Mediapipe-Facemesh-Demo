@@ -25,7 +25,6 @@ It is quicker to get web cam live in Windows environment by adding cv2.CAP_DSHOW
 cap = cv2.VideoCapture(0)
 ```
 ## Step 1c: Initialize the face_mesh class from the Mediapipe library
-Capturing the Image of the background in the first 3 seconds.
 ```python
 mp_face_mesh = mp.solutions.face_mesh
 face_mesh = mp_face_mesh.FaceMesh()
